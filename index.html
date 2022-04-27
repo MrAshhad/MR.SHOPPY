@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .bc{
+            background: rgba(0, 0, 0, 0.87);
+        }
+        #ic {
+            background-color: black;
+        }
+
+        #ic1 {
+            background-color: white;
+        }
+
+        #logo {
+            width: 50%;
+            height: auto;
+        }
+
+        #nav{
+            float: right;
+        }
+        #nav1 {
+            font-family: cursive;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #nav1:hover{
+            transition: 0.5s;
+            background-color:#FF9900;
+            opacity: 1;
+        }
+
+        #nav2 {
+            font-family: cursive;
+            color:black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #nav2:hover{
+            transition: 0.5s;
+            background-color:#FF9900;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body class="bc">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button id="ic" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar" id="ic1"></span>
+                    <span class="icon-bar" id="ic1"></span>
+                    <span class="icon-bar" id="ic1"></span>
+                </button>
+                <a href="home.html"><img src="images/logo.jpg.png" id="logo"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav" id="nav">
+                    <li id="home"><a href="" id="nav1">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown" id="nav1">ALL PRODUCTS <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" id="nav2">Brand1</a></li>
+                            <li><a href="" id="nav2">Brand2</a></li>
+                            <li><a href="" id="nav2">Brand3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" id="nav1">ABOUT US</a></li>
+                    <li><a href="" id="nav1">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
